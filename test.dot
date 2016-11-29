@@ -1,0 +1,52 @@
+digraph  {
+	graph [bb="0 0 493 212",
+		layout=dot,
+		overlap=prism,
+		overlap_scaling=1,
+		rankdir=RL,
+		sep="+18"
+#		,splines=none
+	];
+	node [label="\N"];
+	"%3"	 [IVPosition="-319,-201",
+		label=joe,
+		shape=circle];
+	"%5"	 [IVPosition="-184,-68",
+		color="0.625000 0.617735 1.000000",
+		fontname="TimesNewRomanPS-BoldMT",
+		label=doe,
+		shape=octagon,
+		style=bold];
+	"%3" -> "%5";
+	"%9"	 [IVPosition="128,57",
+		label="",
+		shape=square];
+	"%5" -> "%9";
+	"%13"	 [IVPosition="144,78",
+		label=john,
+		shape=triangle];
+	"%5" -> "%13";
+	"%17"	 [IVPosition="189,32",
+		label="",
+		shape=ellipse];
+	"%27"	 [IVPosition="369,79",
+		label="",
+		shape=ellipse];
+	"%17" -> "%27";
+	"%19"	 [IVPosition="196,98",
+		label="",
+		shape=rectangle];
+	"%21"	 [IVPosition="283,150",
+		label="",
+		shape=rectangle];
+	"%21" -> "%19";
+	"%23"	 [IVPosition="257,222",
+		label="",
+		shape=rectangle];
+	"%25"	 [IVPosition="381,189",
+		label="",
+		shape=diamond];
+	"%25" -> "%21";
+	"%27" -> "%23";
+	"%27" -> "%25"	 [label=test];
+}

@@ -1,0 +1,5 @@
+== GraphViz to Cypher converter
+
+`node test.js`
+
+I used it to convert files from InstaViz(Lite) an iOS app to draw graphs interactively into Cypher.
